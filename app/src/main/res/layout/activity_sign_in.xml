@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cm.xingyu.chat.SignInActivity">
+
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/sign_in_mobile"
+        android:hint="请输入手机号"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sign_in_mobile"
+        android:id="@+id/sign_in_password"
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:hint="请输入密码"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sign_in_password"
+        android:id="@+id/sign_in"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/sign_in"
+        android:text="登录"
+        android:layout_alignLeft="@+id/sign_in"
+        android:id="@+id/turn_to_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_alignRight="@+id/sign_in"
+        android:text="忘记密码"
+        android:layout_below="@+id/sign_in"
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

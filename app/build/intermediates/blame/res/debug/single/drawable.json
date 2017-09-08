@@ -12,8 +12,20 @@
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\createlivestream_press.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\createlivestream_press.png"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainpage_press.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\mainpage_press.png"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\createlivestream_unpress.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\createlivestream_unpress.png"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -36,24 +48,40 @@
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myaccount_unpress.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\myaccount_unpress.png"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainpage_unpress.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\mainpage_unpress.png"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\watchlivestream_press.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\watchlivestream_press.png"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\watchlivestream_unpress.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\watchlivestream_unpress.png"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
@@ -68,12 +96,20 @@
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myaccount_press.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\myaccount_press.png"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\app_icon.png"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
