@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:src="@drawable/app_icon"
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="71dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/username"
+            android:layout_width="242dp"
+            android:text="222"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/chatContent"
+            android:text="niaho "
+            android:layout_width="match_parent"
+            android:layout_height="47dp" />
+    </LinearLayout>
+</LinearLayout>
