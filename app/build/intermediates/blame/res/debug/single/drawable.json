@@ -40,6 +40,14 @@
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chatvoice.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\chatvoice.png"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chatlistaddemotion.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\chatlistaddemotion.png"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -88,6 +96,10 @@
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emotion.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\emotion.png"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
@@ -104,12 +116,20 @@
         "source": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chatlistkeyboard.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\chatlistkeyboard.png"
+    },
+    {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myaccount_press.png",
         "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\myaccount_press.png"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
         "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\headportrait.png",
+        "source": "E:\\blueTooth\\Chat\\app\\src\\main\\res\\drawable\\headportrait.png"
     },
     {
         "merged": "E:\\blueTooth\\Chat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml
 		INJECTED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml
 application
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\blueTooth\Chat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\blueTooth\Chat\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\blueTooth\Chat\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -33,31 +33,35 @@ MERGED from [com.android.support:support-v4:23.4.0] E:\blueTooth\Chat\app\build\
 	android:theme
 		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.cm.xingyu.chat.MainActivity
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:11:9-13:20
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:11:9-59
 	android:name
 		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:11:19-47
 activity#com.cm.xingyu.chat.SignInActivity
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:14:9-52
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:12:9-52
 	android:name
-		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:14:19-49
+		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:12:19-49
 activity#com.cm.xingyu.chat.LoginInActivity
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:15:9-53
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:13:9-53
 	android:name
-		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:15:19-50
+		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:13:19-50
 activity#com.cm.xingyu.chat.FragmentTabHostActivity
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:16:19-58
+		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:14:19-58
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.cm.xingyu.chat.ChatInterfaceActivity
+ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:21:9-68
+	android:name
+		ADDED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml:21:19-56
 uses-sdk
 INJECTED from E:\blueTooth\Chat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\blueTooth\Chat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78

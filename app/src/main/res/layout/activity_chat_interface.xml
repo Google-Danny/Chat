@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cm.xingyu.chat.ChatInterfaceActivity">
+     <ListView
+         android:id="@+id/chatListView"
+         android:layout_width="match_parent"
+         android:layout_height="72dp">
+     </ListView>
+<TextView
+    android:id="@+id/line"
+    android:background="@color/grey"
+    android:layout_marginBottom="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+<ImageView
+    android:layout_marginLeft="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/chatlistkeyboard"
+    android:id="@+id/chatlistkeyboard"
+    android:layout_width="32dp"
+    android:layout_height="32dp" />
+     <ImageView
+         android:visibility="gone"
+         android:layout_marginLeft="10dp"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="10dp"
+         android:src="@drawable/chatvoice"
+         android:id="@+id/chatvoice"
+         android:layout_width="32dp"
+         android:layout_height="32dp" />
+     <Button
+         android:id="@+id/talkButton"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="55dp"
+         android:layout_alignParentBottom="true"
+         android:text="按住 说话"
+         android:layout_width="220dp"
+         android:layout_height="40dp" />
+      <EditText
+          android:visibility="gone"
+          android:id="@+id/wordContent"
+          android:layout_width="220dp"
+          android:layout_height="40dp"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="60dp"
+          android:layout_alignParentBottom="true"
+          />
+
+
+     <ImageView
+         android:layout_alignParentBottom="true"
+         android:layout_toRightOf="@+id/talkButton"
+         android:layout_marginBottom="10dp"
+          android:src="@drawable/emotion"
+         android:layout_marginLeft="10dp"
+         android:id="@+id/emotion"
+         android:layout_width="32dp"
+         android:layout_height="32dp" />
+     <ImageView
+         android:layout_alignParentBottom="true"
+         android:layout_toRightOf="@+id/emotion"
+         android:layout_marginBottom="10dp"
+         android:layout_marginLeft="10dp"
+         android:src="@drawable/chatlistaddemotion"
+         android:id="@+id/addOther"
+         android:layout_width="32dp"
+         android:layout_height="32dp" />
+
+</RelativeLayout>
