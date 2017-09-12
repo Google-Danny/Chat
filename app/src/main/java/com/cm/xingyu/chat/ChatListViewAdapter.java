@@ -1,12 +1,9 @@
 package com.cm.xingyu.chat;
 
 import android.content.Context;
-import android.database.DataSetObserver;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -18,22 +15,23 @@ import java.util.List;
  */
 public class ChatListViewAdapter extends BaseAdapter {
     LayoutInflater mlayoutInflater;
-    List<chatListInfo> chatListInfos;
+    List<ChatMessage> ChatMessages;
 
-    public ChatListViewAdapter(Context context, List<chatListInfo> infos) {
-        chatListInfos = infos;
+    public ChatListViewAdapter(Context context, List<ChatMessage> infos) {
+        ChatMessages = infos;
         mlayoutInflater = LayoutInflater.from(context);
+
     }
 
 
     @Override
     public int getCount() {
-        return chatListInfos.size();
+        return ChatMessages.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return chatListInfos.get(position);
+        return ChatMessages.get(position);
     }
 
     @Override
@@ -54,10 +52,9 @@ public class ChatListViewAdapter extends BaseAdapter {
         } else {
             viewHoler = (ViewHoler) convertView.getTag();
         }
-        Log.e("d",chatListInfos.get(position).getFriendName());
-        viewHoler.image.setImageResource(chatListInfos.get(position).getImage());
-        viewHoler.friendName.setText(chatListInfos.get(position).getFriendName());
-        viewHoler.chatContent.setText(chatListInfos.get(position).getChatContent());
+        viewHoler.image.setImageResource(ChatMessages.get(position).getImage());
+        viewHoler.friendName.setText(ChatMessages.get(position).getFriendName());
+        viewHoler.chatContent.setText(ChatMessages.get(position).getChatContent());
         return convertView;
     }
 

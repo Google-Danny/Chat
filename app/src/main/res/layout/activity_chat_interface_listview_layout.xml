@@ -6,10 +6,12 @@
     >
 
     <LinearLayout
+        android:id="@+id/leftLLY"
         android:layout_gravity="left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <ImageView
+            android:id="@+id/leftImageView"
             android:layout_width="51dp"
             android:layout_height="51dp"
             android:layout_marginLeft="10dp"
@@ -17,7 +19,7 @@
             android:src="@drawable/headportrait" />
 
         <TextView
-            android:id="@+id/chatcontent"
+            android:id="@+id/leftChatContent"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -26,18 +28,21 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/rightLLY"
         android:layout_marginTop="10dp"
         android:layout_gravity="right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
        >
         <TextView
-            android:id="@+id/otherChatContent"
-            android:layout_width="200dp"
+            android:id="@+id/rightChatContent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:layout_gravity="center"
             android:text="222" />
         <ImageView
+            android:id="@+id/rightImageView"
             android:layout_gravity="right"
             android:layout_width="51dp"
             android:layout_height="51dp"

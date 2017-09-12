@@ -1,6 +1,5 @@
 package com.cm.xingyu.chat;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,8 +19,8 @@ import java.util.List;
 public class MainPageFragment extends Fragment {
     private String mFrom;
     ChatListViewAdapter chatListViewAdapter;
-    List<chatListInfo> infos;
-    chatListInfo listInfo;
+    List<ChatMessage> infos;
+    ChatMessage listInfo;
 
     static MainPageFragment newInstance(String from) {
         MainPageFragment mainPageFragment = new MainPageFragment();
@@ -49,7 +47,7 @@ public class MainPageFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                chatListInfo getObject = infos.get(position);
+                ChatMessage getObject = infos.get(position);
                 Intent intent = new Intent();
                 intent.setClass(getActivity(),ChatInterfaceActivity.class);
                 Bundle bundle = new Bundle();
@@ -61,12 +59,9 @@ public class MainPageFragment extends Fragment {
         return view;
     }
 
-    public List<chatListInfo> getData() {
-        infos = new ArrayList<chatListInfo>();
-        listInfo = new chatListInfo();
-        listInfo.setImage(R.drawable.headportrait);
-        listInfo.setFriendName("xiu 520");
-        listInfo.setChatContent("xiu xiu xiu 520");
+    public List<ChatMessage> getData() {
+        infos = new ArrayList<ChatMessage>();
+        listInfo = new ChatMessage("xiu",R.drawable.headportrait,"xiu xiu xiu 520","send");
         infos.add(listInfo);
         return infos;
     }
